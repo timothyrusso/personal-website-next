@@ -1,5 +1,5 @@
 export const Title = () => {
     return (
-        <h1 className="text-3xl font-bold">Timothy Russo Personal Website</h1>
+        <h1 className="text-5xl font-bold mb-20">Hi 👋 I'm Timothy Russo</h1>
     )
 }
