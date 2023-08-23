@@ -1,6 +1,6 @@
 export const Description = () => {
     return (
-      <p className="text-lg">
+      <p className="text-xl">
         I’m a <span>Frontend Engineer</span> with a
         background in eCommerce, Quality Assurance, Application Delivery, Project
         Management, and Trade Marketing. Holding a bachelor's degree in Economics
