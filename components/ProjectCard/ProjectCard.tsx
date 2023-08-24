@@ -12,7 +12,7 @@ export const ProjectCard: FC<PrjectCardProps> = ({
   description,
 }) => {
   return (
-    <li className="flex justify-start flex-col text-xl border-2 px-5 rounded-xl">
+    <li className="flex justify-start flex-col text-xl border-2 px-5 rounded-xl min-h-project-card">
       <a href={link} target="_blank">
         <h2>{title}</h2>
         <p>{description}</p>
