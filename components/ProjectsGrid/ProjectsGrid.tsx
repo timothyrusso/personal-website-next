@@ -15,9 +15,13 @@ export const ProjectsGrid = () => {
           />
         ))}
       </ul>
-      <div>
+      <div className="text-lg font-medium mt-4">
         More projects available on my{' '}
-        <a href="https://github.com/timothyrusso" target="_blank">
+        <a
+          className="underline"
+          href="https://github.com/timothyrusso"
+          target="_blank"
+        >
           GitHub
         </a>{' '}
         profile.
