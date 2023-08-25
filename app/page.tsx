@@ -1,6 +1,7 @@
 import { Title } from '@/components/Title/Title';
 import { Description } from '@/components/Description/Description';
 import { ProjectsGrid } from '@/components/ProjectsGrid/ProjectsGrid';
+import { Footer } from '@/components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Title />
       <Description />
       <ProjectsGrid />
+      <Footer />
     </main>
   );
 }
