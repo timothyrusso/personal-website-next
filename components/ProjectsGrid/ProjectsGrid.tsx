@@ -4,8 +4,8 @@ import { ProjectCard } from '../ProjectCard/ProjectCard';
 export const ProjectsGrid = () => {
   return (
     <div>
-      <h2>Projects</h2>
-      <ul className="grid grid-cols-2 gap-7">
+      <h2 className="text-2xl font-bold mb-7 mt-7">Projects</h2>
+      <ul className="grid grid-cols-1 gap-7">
         {projects.map((project) => (
           <ProjectCard
             key={project.id}
