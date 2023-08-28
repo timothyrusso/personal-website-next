@@ -1,8 +1,8 @@
 export const Footer = () => {
   return (
     <footer>
-      <h2>Want to talk?</h2>
-      <ul>
+      <h2 className="text-2xl font-bold mb-7 mt-7">Want to talk?</h2>
+      <ul className="flex justify-between font-bold underline max-w-xs">
         <li>
           <a href="mailto:russotimothy@live.it">Email</a>
         </li>

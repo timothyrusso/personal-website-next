@@ -15,7 +15,7 @@ export const ProjectsGrid = () => {
           />
         ))}
       </ul>
-      <div className="text-lg font-medium mt-4">
+      <div className="text-base font-medium mt-4">
         More projects available on my{' '}
         <a
           className="underline"
