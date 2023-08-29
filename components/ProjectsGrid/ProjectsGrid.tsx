@@ -18,7 +18,7 @@ export const ProjectsGrid = () => {
       <div className="text-base font-medium mt-4">
         More projects available on my{' '}
         <a
-          className="underline"
+          className="underline gradient-text-hover"
           href="https://github.com/timothyrusso"
           target="_blank"
         >

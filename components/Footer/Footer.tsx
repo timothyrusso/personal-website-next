@@ -7,10 +7,10 @@ export const Footer = () => {
       <ul
         className={`flex justify-between font-bold underline ${styles['max-width-footer-links']}`}
       >
-        <li>
+        <li className="gradient-text-hover">
           <a href="mailto:russotimothy@live.it">Email</a>
         </li>
-        <li>
+        <li className="gradient-text-hover">
           <a
             href="https://www.linkedin.com/in/russotimothysoftwareengineer/"
             target="_blank"
@@ -18,7 +18,7 @@ export const Footer = () => {
             LinkedIn
           </a>
         </li>
-        <li>
+        <li className="gradient-text-hover">
           <a
             href="https://docs.google.com/document/d/1cNIQyn6GO5usEu9Hs_lQVgJPxMxgYiiw5ZGZX69TjqI/edit"
             target="_blank"
