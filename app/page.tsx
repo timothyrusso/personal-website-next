@@ -5,7 +5,7 @@ import { Footer } from '@/components/Footer/Footer';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-6 2xl:px-96">
+    <main className="flex min-h-screen flex-col p-6 xl:px-64 2xl:px-96">
       <Title />
       <Description />
       <ProjectsGrid />

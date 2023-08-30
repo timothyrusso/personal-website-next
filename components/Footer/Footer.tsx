@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer>
       <h2 className="text-2xl font-bold mb-7 mt-7">Want to talk?</h2>
       <ul
-        className={`flex justify-between font-bold underline ${styles['max-width-footer-links']}`}
+        className={`flex justify-between font-bold ${styles['max-width-footer-links']}`}
       >
         <li className="gradient-text-hover">
           <a href="mailto:russotimothy@live.it">Email</a>
