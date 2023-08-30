@@ -16,7 +16,7 @@ export const ProjectsGrid = () => {
         ))}
       </ul>
       <div className="text-base font-medium mt-4">
-        More projects available on my{' '}
+        More projects available on my &#60;
         <a
           className="gradient-text-hover font-bold"
           href="https://github.com/timothyrusso"
@@ -24,7 +24,7 @@ export const ProjectsGrid = () => {
         >
           GitHub
         </a>{' '}
-        profile.
+        /&#62; profile.
       </div>
     </div>
   );
