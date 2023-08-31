@@ -16,15 +16,17 @@ export const ProjectsGrid = () => {
         ))}
       </ul>
       <div className="text-base font-medium mt-4">
-        More projects available on my &#60;
-        <a
-          className="gradient-text-hover font-bold"
-          href="https://github.com/timothyrusso"
-          target="_blank"
-        >
-          GitHub
-        </a>{' '}
-        /&#62; profile.
+        More projects available on my{' '}
+        <span className="underline">
+          <a
+            className="gradient-text-hover font-bold"
+            href="https://github.com/timothyrusso"
+            target="_blank"
+          >
+            GitHub
+          </a>
+        </span>{' '}
+        profile.
       </div>
     </div>
   );
