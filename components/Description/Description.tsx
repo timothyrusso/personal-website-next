@@ -1,6 +1,6 @@
 export const Description = () => {
   return (
-    <p className="text-lg font-medium">
+    <p className="text-lg font-medium bg-slate-900 p-5 rounded-xl">
       I&apos;m a{' '}
       <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent font-bold gradient-text-hover">
         Frontend Engineer
