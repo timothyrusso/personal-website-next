@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'fabrikam-global',
-    link: 'https://github.com/timothyrusso/fabrikam-global-webapp-frontend',
+    title: 'news-explorer',
+    link: 'https://github.com/timothyrusso/news-explorer-frontend',
     description:
-      'Full stack data entry application built with React.js, TypeScript, Redux, Chakra UI, React Hook Form, Node.js, Express.js and PostgreSQL',
+      'Full stack application where users can search news from a public API and save them in their profiles',
     id: 1,
   },
   {
@@ -21,10 +21,10 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'news-explorer',
-    link: 'https://github.com/timothyrusso/news-explorer-frontend',
+    title: 'fabrikam-global',
+    link: 'https://github.com/timothyrusso/fabrikam-global-webapp-frontend',
     description:
-      'Full stack application where users can search news from a public API and save them in their profiles',
+      'Full stack data entry application built with React.js, TypeScript, Redux, Chakra UI, React Hook Form, Node.js, Express.js and PostgreSQL',
     id: 4,
   },
   {
