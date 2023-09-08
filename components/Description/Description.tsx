@@ -2,7 +2,7 @@ export const Description = () => {
   return (
     <p className="text-lg font-medium bg-description p-5 rounded-xl">
       I&apos;m a{' '}
-      <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent font-bold gradient-text-hover">
+      <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent font-bold gradient-text-hover cursor-progress">
         Frontend Engineer
       </span>{' '}
       with a background in eCommerce, Quality Assurance, Application Delivery,
