@@ -16,6 +16,9 @@ const config: Config = {
       minHeight: {
         'project-card': '138px',
       },
+      colors: {
+        description: '#000D29',
+      },
     },
   },
   plugins: [],
