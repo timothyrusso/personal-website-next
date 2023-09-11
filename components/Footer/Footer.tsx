@@ -39,18 +39,28 @@ export const Footer = () => {
       </ul>
       <div className="flex items-center">
         <p className="mt-16">Made with ❤️ and</p>
-        <Image
-          src={NextIcon}
-          alt="NextJs icon"
-          width={40}
-          className="bg-white max-h-10 self-end rounded-full p-2 ml-2 mt-16"
-        />
-        <Image
-          src={TailwindIcon}
-          alt="TailwindCSS icon"
-          width={40}
-          className="bg-white max-h-10 self-end rounded-full p-2 ml-2 mt-16"
-        />
+        <div className="relative">
+          <Image
+            src={NextIcon}
+            alt="NextJs icon"
+            width={40}
+            className="bg-white max-h-10 self-end rounded-full p-2 ml-2 mt-16 hover-trigger"
+          />
+          <div className="absolute w-24 h-8 rounded-2xl flex justify-center items-center hover-target top-6 right-0 opacity-0">
+            NextJs
+          </div>
+        </div>
+        <div className="relative">
+          <Image
+            src={TailwindIcon}
+            alt="TailwindCSS icon"
+            width={40}
+            className="bg-white max-h-10 self-end rounded-full p-2 ml-2 mt-16 hover-trigger"
+          />
+          <div className="absolute w-32 h-8 rounded-2xl flex justify-center items-center hover-target top-6 left-3 opacity-0">
+            TailwindCSS
+          </div>
+        </div>
       </div>
     </footer>
   );
