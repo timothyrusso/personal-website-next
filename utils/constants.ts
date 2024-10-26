@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'news-explorer',
-    link: 'https://github.com/timothyrusso/news-explorer-frontend',
+    title: 'FlappyBird',
+    link: 'https://github.com/timothyrusso/FlappyBird',
     description:
-      'Full stack application where users can search news from a public API and save them in their profiles',
+      'A small game project that replicates Flappy Bird in React Native, using Expo, Reanimated 3, and Skia.',
     id: 1,
   },
   {
@@ -21,10 +21,10 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'fabrikam-global',
-    link: 'https://github.com/timothyrusso/fabrikam-global-webapp-frontend',
+    title: 'news-explorer',
+    link: 'https://github.com/timothyrusso/news-explorer-frontend',
     description:
-      'Full stack data entry application built with React.js, TypeScript, Redux, Chakra UI, React Hook Form, Node.js, Express.js and PostgreSQL',
+      'Full stack application where users can search news from a public API and save them in their profiles',
     id: 4,
   },
   {
