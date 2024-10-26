@@ -20,7 +20,11 @@ export const Description = () => {
       I thrive in environments that challenge me to explore new technologies and
       methodologies. My experience working with international teams, both
       professionally and through open-source contributions at{' '}
-      <a href="https://chingu.io" target="_blank">
+      <a
+        href="https://github.com/chingu-x/chingu-dashboard"
+        className="text-[#50d71e] font-bold"
+        target="_blank"
+      >
         chingu.io
       </a>
       , has honed my collaborative skills and cross-cultural communication.
