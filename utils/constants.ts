@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'FlappyBird',
+    title: 'flappy-bird',
     link: 'https://github.com/timothyrusso/FlappyBird',
     description:
-      'A small game project that replicates Flappy Bird in React Native, using Expo, Reanimated 3, and Skia.',
+      'A small game project that replicates Flappy Bird in React Native, using Expo, Reanimated 3, and Skia',
     id: 1,
   },
   {
