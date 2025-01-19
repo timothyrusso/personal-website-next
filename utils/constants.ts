@@ -1,4 +1,4 @@
-export const projects = [
+export const sideProjects = [
   {
     title: 'flappy-bird',
     link: 'https://github.com/timothyrusso/FlappyBird',
@@ -39,5 +39,22 @@ export const projects = [
     link: 'https://github.com/timothyrusso/web_project_1',
     description: 'Landing page with some cool css effects',
     id: 6,
+  },
+];
+
+export const professionalProjects = [
+  {
+    title: 'ChorusLife App',
+    link: 'https://apps.apple.com/it/app/choruslife/id6443739126',
+    description:
+      'A React Native application designed to manage services and activities for smart districts.',
+    id: 1,
+  },
+  {
+    title: 'Feelspace App',
+    link: 'https://apps.apple.com/it/app/feelspace/id1574724719',
+    description:
+      'A React Native application that helps companies and businesses manage their digital assets.',
+    id: 2,
   },
 ];

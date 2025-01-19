@@ -27,15 +27,6 @@ export const Footer = () => {
             LinkedIn
           </a>
         </li>
-        <li>
-          <a
-            className="gradient-text-hover font-bold"
-            href="https://docs.google.com/document/d/1cNIQyn6GO5usEu9Hs_lQVgJPxMxgYiiw5ZGZX69TjqI/edit"
-            target="_blank"
-          >
-            Resume
-          </a>
-        </li>
       </ul>
       <div className="flex items-center">
         <p className="mt-16">Made with ❤️ and</p>
