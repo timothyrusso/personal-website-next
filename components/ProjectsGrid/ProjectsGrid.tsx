@@ -1,4 +1,4 @@
-import { sideProjects, professionalProjects } from '@/utils/constants';
+import { professionalProjects, sideProjects } from '@/utils/constants';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 
 export const ProjectsGrid = () => {
@@ -33,6 +33,7 @@ export const ProjectsGrid = () => {
             className="gradient-text-hover font-bold"
             href="https://github.com/timothyrusso"
             target="_blank"
+            rel="noreferrer"
           >
             GitHub
           </a>
