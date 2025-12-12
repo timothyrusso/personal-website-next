@@ -12,6 +12,7 @@ export const ProjectsGrid = () => {
             title={project.title}
             link={project.link}
             description={project.description}
+            chipLabel={project.chipLabel}
           />
         ))}
       </ul>

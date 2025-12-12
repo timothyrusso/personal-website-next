@@ -37,6 +37,7 @@ export const professionalProjects = [
     description:
       'A complete travel companion for discovering, comparing, and booking flights, hotels, and packages on mobile.',
     id: 1,
+    chipLabel: 'CURRENT',
   },
   {
     title: 'ChorusLife App',
@@ -44,6 +45,7 @@ export const professionalProjects = [
     description:
       'A React Native application designed to manage services and activities for smart districts.',
     id: 2,
+    chipLabel: 'FROM 2023 TO 2025',
   },
   {
     title: 'Feelspace App',
@@ -51,5 +53,6 @@ export const professionalProjects = [
     description:
       'A React Native application that helps companies and businesses manage their digital assets.',
     id: 3,
+    chipLabel: 'FROM 2023 TO 2025',
   },
 ];
