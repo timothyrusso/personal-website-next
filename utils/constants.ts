@@ -8,7 +8,7 @@ export const sideProjects = [
   },
 
   {
-    title: 'ai-travel-planner',
+    title: 'HolidAI',
     link: 'https://github.com/timothyrusso/ai-travel-planner-app',
     description:
       'A smart travel planning assistant that leverages Google Gemini AI to create personalized trip itineraries',
