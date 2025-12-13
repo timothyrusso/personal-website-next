@@ -4,7 +4,7 @@ import { ProjectCard } from '../ProjectCard/ProjectCard';
 export const ProjectsGrid = () => {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-7 mt-16">Projects</h2>
+      <h2 className="text-2xl font-bold mb-7 mt-16">Production projects</h2>
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-7 mb-16">
         {professionalProjects.map((project) => (
           <ProjectCard
@@ -16,7 +16,7 @@ export const ProjectsGrid = () => {
           />
         ))}
       </ul>
-      <h2 className="text-2xl font-bold mb-7 mt-7">Side projects</h2>
+      <h2 className="text-2xl font-bold mb-7 mt-7">Indipendent projects</h2>
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-7">
         {sideProjects.map((project) => (
           <ProjectCard
